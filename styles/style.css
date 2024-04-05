@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/*début du header*/
+header {
+    background: #ffffff;
+    padding: 30px;
+    font-size: 25px;
+    font-family: mogent;
+    letter-spacing: 3px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    gap: 20vh;
+}
+/*fin du header*/
+
+
+/*début du footer*/
+footer {
+    background: #464242;
+    color: white;
+    padding: 10vh;
+    font-family: mogent;
+    letter-spacing: 3px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/*fin du footer*/
+
+/*les typos*/
+@font-face {
+    font-family: Bright;
+    src: url(/typo/Bright\ DEMO.otf)
+}
+
+@font-face {
+    font-family: lemon;
+    src: url(/typo/Lemon\ Milk.otf);
+}
+
+@font-face {
+    font-family: magic retro;
+    src: url(/typo/Magic\ Retro.ttf);
+}
+
+@font-face {
+    font-family: mogent;
+    src: url(/typo/Mogent.otf);
+}
+
+@font-face {
+    font-family: monofonto;
+    src: url(/typo/monofonto\ rg.otf);
+}

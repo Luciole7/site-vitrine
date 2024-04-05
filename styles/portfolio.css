@@ -1,0 +1,30 @@
+body {
+    background: #FBE6E3;
+}
+
+main>div {
+    display: flex;
+    justify-content: center;
+}
+
+.autour {
+    display: flex;
+    margin: 50px;
+}
+
+.bouton {
+    background: #59715F;
+    color: #FBE6E3;
+    padding: 40px;
+    border-radius: 15px;
+    font-size: 35px;
+}
+
+.bouton>a {
+    color: #ffffff;
+}
+
+img{
+    width: 65vh;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,41 @@
+body {
+    background: #FBE6E3;
+}
+
+main {
+    margin-bottom: 40px;
+}
+.fond {
+    display: flex;
+}
+
+.portrait {
+    width: 60vh;
+}
+
+.nom {
+    color: #464242;
+    margin-top: 15vh;
+    font-family: Bright;
+    font-size: 70px;
+    letter-spacing: 3px;
+}
+
+.cv {
+    display: flex;
+    justify-content: center;
+}
+
+.bouton {
+    margin-top: 10px;
+    background: #FA9396;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;    
+}
+
+.bouton>a {
+    color: white;
+}
